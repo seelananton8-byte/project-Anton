@@ -6,7 +6,7 @@ function car (brand, model, color){
         console.log(`${this.brand} ${this.model} is starting.....`);
     };
 }
-const car1 = newCar("Toyota", "Corolla", "Silver");
-const car2 = newCar("Honda", "Civic", "Black");
+const car1 = new car("Toyota", "Corolla", "Silver");
+const car2 = new car("Honda", "Civic", "Black");
 car1.start();
 car2.start();
